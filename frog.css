@@ -1322,11 +1322,11 @@ input:checked+.optCheck {
 #healthValueHolder {
 	background-color: transparent;
 	width: 110px;
-	height: 110px;
+	height: 300px;
 	border-radius: 0;
 	position: fixed;
 	left: 40%;
-	bottom: 15%;
+	bottom: 5%;
 	padding: 0;
 	margin-bottom: 0;
 	padding-right: 0;
@@ -1360,11 +1360,11 @@ input:checked+.optCheck {
 	background-color: transparent;
 	letter-spacing: 0;
 	width: 110px;
-	height: 110px;
+	height: 300px;
 	border-radius: 0;
 	position: fixed;
 	right: 40%;
-	bottom: 15%;
+	bottom: 5%;
 	padding: 0;
 	padding-top: 0;
 	padding-left: 0;
