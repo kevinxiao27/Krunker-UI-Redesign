@@ -1314,6 +1314,7 @@ input:checked+.optCheck {
 #livesDisp,
 #streakVal,
 #myScoreVal {
+	left: 7px;
 	bottom: 7px;
 	position: relative;
 }
@@ -1345,7 +1346,7 @@ input:checked+.optCheck {
 #healthValue {
 	color: var(--health-color);
 	font-family: hpammo;
-	font-size: 70px;
+	font-size: 100px;
 	text-align: center;
 	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 	margin-top: 0;
@@ -1371,7 +1372,7 @@ input:checked+.optCheck {
 	height: 65px;
 	border-radius: 0;
 	position: fixed;
-	right: 35%;
+	right: 40%;
 	bottom: 15%;
 	padding: 0;
 	padding-top: 0;
@@ -1382,7 +1383,7 @@ input:checked+.optCheck {
 #ammoVal {
 	color: var(--ammo-color);
 	font-family: hpammo;
-	font-size: 60px;
+	font-size: 100px;
 	margin-left: 12px;
 	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
