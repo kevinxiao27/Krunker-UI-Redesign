@@ -1325,8 +1325,8 @@ input:checked+.optCheck {
 	height: 300px;
 	border-radius: 0;
 	position: fixed;
-	left: 40%;
-	bottom: 5%;
+	left: 35%;
+	bottom: 10%;
 	padding: 0;
 	margin-bottom: 0;
 	padding-right: 0;
@@ -1364,7 +1364,7 @@ input:checked+.optCheck {
 	border-radius: 0;
 	position: fixed;
 	right: 40%;
-	bottom: 5%;
+	bottom: 10%;
 	padding: 0;
 	padding-top: 0;
 	padding-left: 0;
