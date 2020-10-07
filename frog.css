@@ -1373,7 +1373,7 @@ input:checked+.optCheck {
 }
 
 #ammoVal {
-	color: var(--ammo-color);
+	color: rgb(0, 247, 255);
 	font-family: hpammo;
 	font-size: 110px;
 	margin-left: 12px;
