@@ -1326,7 +1326,7 @@ input:checked+.optCheck {
 	height: 65px;
 	border-radius: 0;
 	position: fixed;
-	left: 35%;
+	left: 40%;
 	bottom: 15%;
 	padding: 0;
 	margin-bottom: 0;
@@ -1338,7 +1338,7 @@ input:checked+.optCheck {
 #healthValue {
 	color: var(--health-color);
 	font-family: hpammo;
-	font-size: 100px;
+	font-size: 110px;
 	text-align: center;
 	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 	margin-top: 0;
@@ -1364,7 +1364,7 @@ input:checked+.optCheck {
 	height: 65px;
 	border-radius: 0;
 	position: fixed;
-	right: 40%;
+	right: 45%;
 	bottom: 15%;
 	padding: 0;
 	padding-top: 0;
@@ -1375,7 +1375,7 @@ input:checked+.optCheck {
 #ammoVal {
 	color: var(--ammo-color);
 	font-family: hpammo;
-	font-size: 100px;
+	font-size: 110px;
 	margin-left: 12px;
 	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
@@ -1415,15 +1415,11 @@ input:checked+.optCheck {
 }
 
 #weapDisplay {
-	display: flex !important;
-	flex-direction: row !important;
-	bottom: 20px;
-	right: 50%;
-	transform: translateX(50%);
+	display: none;
 }
 
 .weapItem {
-	margin-top: 0;
+	margin-top: 0;D
 }
 
 .weapKey {
