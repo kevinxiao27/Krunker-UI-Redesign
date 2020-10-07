@@ -1326,7 +1326,7 @@ input:checked+.optCheck {
 	border-radius: 0;
 	position: fixed;
 	left: 40%;
-	bottom: 3%;
+	bottom: 5%;
 	padding: 0;
 	margin-bottom: 0;
 	padding-right: 0;
@@ -1337,7 +1337,7 @@ input:checked+.optCheck {
 #healthValue {
 	color: var(--health-color);
 	font-family: hpammo;
-	font-size: 500px;
+	font-size: 350px;
 	text-align: center;
 	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 	margin-top: 0;
@@ -1364,7 +1364,7 @@ input:checked+.optCheck {
 	border-radius: 0;
 	position: fixed;
 	right: 40%;
-	bottom: 3%;
+	bottom: 5%;
 	padding: 0;
 	padding-top: 0;
 	padding-left: 0;
@@ -1374,7 +1374,7 @@ input:checked+.optCheck {
 #ammoVal {
 	color: rgb(0, 247, 255);
 	font-family: hpammo;
-	font-size: 500px;
+	font-size: 350px;
 	margin-left: 0px;
 	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
