@@ -1306,7 +1306,6 @@ input:checked+.optCheck {
 #livesDisp,
 #streakVal,
 #myScoreVal {
-	left: 7px;
 	bottom: 7px;
 	position: relative;
 }
@@ -1419,7 +1418,7 @@ input:checked+.optCheck {
 }
 
 .weapItem {
-	margin-top: 0;D
+	display: none;
 }
 
 .weapKey {
