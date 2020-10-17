@@ -1,7 +1,7 @@
 /* Updated 26 September 2020 */
 
 :root {
-	--accent-color: #00ff4c;
+	--accent-color: #5a5a5a;
 	--health-color: var(--accent-color);
 	--ammo-color: #fff;
 	--premium-color: #fbc02d;
@@ -14,12 +14,12 @@
 
 @font-face {
 	font-family: gamefont;
-	src: url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2);
+	src: url(https://dl.dropboxusercontent.com/s/xuc8db5uz90g1tu/cs_regular.ttf?dl=0);
 }
 
 @font-face {
 	font-family: hpammo;
-	src: url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_c5H3gnD_g.woff2);
+	src: url(https://dl.dropboxusercontent.com/s/xuc8db5uz90g1tu/cs_regular.ttf?dl=0);
 }
 
 * {
@@ -1372,7 +1372,7 @@ input:checked+.optCheck {
 }
 
 #ammoVal {
-	color: rgb(0, 247, 255);
+	color: rgb(44, 44, 44);
 	font-family: hpammo;
 	font-size: 140px;
 	margin-left: 12px;
