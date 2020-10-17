@@ -1,7 +1,7 @@
 @import url('https://frogguman.github.io/frog.css');
 
 :root {
-	--accent-color: #5a5a5a;
+	--accent-color: #000000;
 	--health-color: var(--accent-color);
 	--ammo-color: #fff;
 	--premium-color: #fbc02d;
