@@ -1,4 +1,4 @@
-/* Updated 26 September 2020 */
+/* Updated 20 October 2020 */
 
 :root {
 	--accent-color: #000000;
@@ -1289,13 +1289,7 @@ input:checked+.optCheck {
 
 .matchVoteThumb {
 	border-radius: 0;
-}
-
-.countIcon {
-	background-color: var(--ingame-bg-color);
-	border-radius: 0;
-	padding: 7px;
-}
+}	
 
 #deathsVal,
 #killsVal,
@@ -1342,7 +1336,7 @@ input:checked+.optCheck {
  z-index:3;
  height:50px;
  border-radius: 0px;
- background-color:rgba(0,0,0,.4)
+ background-color:rgba(0,0,0,0)
 }
 .healthBarSeg {
  width:70px;
@@ -1374,11 +1368,11 @@ input:checked+.optCheck {
 	border-radius: 0;
 	position: fixed;
 	right: 8%;
-	bottom: 1%;
+	bottom: 10px;
 	padding: 0;
 	padding-top: 0;
 	padding-left: 0;
-	padding-bottom: -10px;
+	padding-bottom: 0px;
 	transform: none;
 }
 
@@ -1388,9 +1382,9 @@ input:checked+.optCheck {
 }
 
 #ammoVal {
-	color: rgb(44, 44, 44);
+	color: rgb(255 255 255);
 	font-family: hpammo;
-	font-size: 130px;
+	font-size: 100px;
 	margin-left: 12px;
 	text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
@@ -1421,7 +1415,8 @@ input:checked+.optCheck {
 #chatHolder {
 	bottom: 100px !important;
 	left: 20px !important;
-	background-color: var(--ingame-bg-color);
+	position: fixed;
+	background-color: transparent;
 }
 
 .chatItem {
@@ -1462,4 +1457,42 @@ input:checked+.optCheck {
 .readAll:hover {
 	background-color: transparent;
 	color: #fff;
+}
+
+#deathsVal,
+#killsVal,
+#livesDisp,
+#myScoreVal {
+    bottom: 7px;
+    position: relative;
+    background-color: transparent;
+}
+
+#streakCount {
+    position: fixed;
+    transform: translateX(-50%);
+    bottom: 7px;
+    left: 50%;
+    background-color: transparent;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+
+#streakIcon {
+    filter: drop-shadow(2px 2px 3px rgba(30, 30, 30, .5));
+}
+
+#maxHP {
+	display: none;
+}
+
+.countIcon {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 50px !important;
+}
+
+.topRightCounters {
+	bottom: 7px !important;
+	right: 50% !important;
+	position: fixed;
 }
