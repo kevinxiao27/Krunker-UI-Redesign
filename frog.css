@@ -1487,7 +1487,7 @@ input:checked+.optCheck {
 .countIcon {
     background-color: transparent;
     border-radius: 0;
-    padding: 50px !important;
+    padding: 30px !important;
 }
 
 .topRightCounters {
