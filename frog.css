@@ -1472,7 +1472,6 @@ input:checked+.optCheck {
     position: fixed;
     transform: translateX(-50%);
     bottom: 7px;
-    left: 50%;
     background-color: transparent;
     text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
@@ -1493,6 +1492,6 @@ input:checked+.optCheck {
 
 .topRightCounters {
 	bottom: 7px !important;
-	right: 50% !important;
+	transform: translateX(-50%) !important;
 	position: fixed;
 }
