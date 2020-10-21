@@ -1298,7 +1298,7 @@ input:checked+.optCheck {
 #myScoreVal {
 	bottom: 7px;
 	right: 100px;
-	position: relative;
+	position: fixed;
 }
 
 .kfItem {
