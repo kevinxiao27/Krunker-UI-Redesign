@@ -1291,16 +1291,6 @@ input:checked+.optCheck {
 	border-radius: 0;
 }	
 
-#deathsVal,
-#killsVal,
-#livesDisp,
-#streakVal,
-#myScoreVal {
-	bottom: 7px;
-	right: 100px;
-	position: fixed;
-}
-
 .kfItem {
 	border-radius: 0;
 	background-color: var(--ingame-bg-color);
@@ -1314,7 +1304,7 @@ input:checked+.optCheck {
  display:inline-block;
  margin:0;
  text-align:left;
- background-color:rgba(0,0,0,.6)
+ background-color:rgba(0,0,0,.0)
 }
 #healthValueHolder {
  display:inline-block;
@@ -1340,7 +1330,7 @@ input:checked+.optCheck {
  background-color:rgba(0,0,0,0)
 }
 .healthBarSeg {
- width:70px;
+ width: 100px;
  display:inline-block;
  border-radius: 0px;
  margin-right:-20px;
@@ -1358,7 +1348,6 @@ input:checked+.optCheck {
 .killStreakHolder {
 	position: fixed;
 	transform: translateX(-50%);
-	bottom: 5%;
 }
 
 #ammoDisplay {
@@ -1375,11 +1364,6 @@ input:checked+.optCheck {
 	padding-left: 0;
 	padding-bottom: 0px;
 	transform: none;
-}
-
-.killstreakval{
-	right: 50%;
-	bottom: 1%;
 }
 
 #ammoVal {
@@ -1463,22 +1447,18 @@ input:checked+.optCheck {
 #deathsVal,
 #killsVal,
 #livesDisp,
+#streakVal,
 #myScoreVal {
-    bottom: 7px;
-    position: relative;
-    background-color: transparent;
+	bottom: 2%;
+	right: 50%px;
+	position: fixed;
 }
 
 #streakCount {
-    position: fixed;
-    transform: translateX(-50%);
+    position: relative;
     bottom: 7px;
     background-color: transparent;
     text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
-}
-
-#streakIcon {
-    filter: drop-shadow(2px 2px 3px rgba(30, 30, 30, .5));
 }
 
 #maxHP {
@@ -1488,11 +1468,10 @@ input:checked+.optCheck {
 .countIcon {
     background-color: transparent;
     border-radius: 0;
-    padding: 30px !important;
 }
 
 .topRightCounters {
-	bottom: 7px !important;
-	transform: translateX(-50%) !important;
+	bottom: 2% !important;
+	right: 50%; !important;
 	position: fixed;
 }
