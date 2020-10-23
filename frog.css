@@ -1450,7 +1450,6 @@ input:checked+.optCheck {
 #streakVal,
 #myScoreVal {
 	bottom: 2%;
-	right: 45%; !important;
 	position: fixed;
 }
 
