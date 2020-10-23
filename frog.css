@@ -14,12 +14,12 @@
 
 @font-face {
 	font-family: gamefont;
-	src: url(https://dl.dropboxusercontent.com/s/xuc8db5uz90g1tu/cs_regular.ttf?dl=0);
+	src: url(https://dl.dropboxusercontent.com/s/nksz7ugs9aivudq/GOGOIA-Deco.ttf?dl=0);
 }
 
 @font-face {
 	font-family: hpammo;
-	src: url(https://dl.dropboxusercontent.com/s/xuc8db5uz90g1tu/cs_regular.ttf?dl=0);
+	src: url(https://dl.dropboxusercontent.com/s/nksz7ugs9aivudq/GOGOIA-Deco.ttf?dl=0);
 }
 
 * {
@@ -501,7 +501,7 @@ a:hover {
 
 #menuWindow {
 	max-height: calc(100% - 360px) !important;
-	background-color: var(--menu-bg-color);
+	background-color: rgba(255,255,255,0.1);
 	box-shadow: none;
 	border-radius: 0;
 }
@@ -1134,7 +1134,7 @@ input:checked+.optCheck {
 
 #leaderDisplay {
 	border-radius: 0;
-	background-color: var(--ingame-bg-color);
+	background-color: transparent;
 }
 
 .leaderName {
@@ -1189,7 +1189,7 @@ input:checked+.optCheck {
 }
 
 .endTableN {
-	color: var(--accent-color);
+	color: transparent;
 }
 
 .endCard {
@@ -1330,7 +1330,7 @@ input:checked+.optCheck {
  background-color:rgba(0,0,0,0)
 }
 .healthBarSeg {
- width: 100px;
+ width: 70px;
  display:inline-block;
  border-radius: 0px;
  margin-right:-20px;
