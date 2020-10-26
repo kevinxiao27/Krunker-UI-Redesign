@@ -10,6 +10,7 @@
 	--menu-bg-color-secondary: rgba(0, 0, 0, .5);
 	--ingame-bg-color: rgba(15, 15, 15, .2);
 	--text-transform: lowercase;
+	--enemy-color: rgb(87, 87, 87);
 }
 
 @font-face {
@@ -1121,7 +1122,7 @@ input:checked+.optCheck {
 	width: 75px;
 	height: 25px;
 	margin-right: 0;
-	background-color: var(--accent-color);
+	background-color: var(--enemy-color);
 	opacity: 50%;
 	z-index: 1;
 }
@@ -1194,7 +1195,7 @@ input:checked+.optCheck {
 
 .endCard {
 	left: 50% !important;
-	background-color: var(--menu-bg-color-secondary);
+	background-color: rgba(255,255,255,0.2);
 	border-radius: 0;
 }
 
