@@ -1309,7 +1309,7 @@ input:checked+.optCheck {
  display:inline-block;
  margin:0;
  text-align:left;
- background-color:rgba(0,0,0,0)
+ background-color:rgba(0,0,0,0.1)
 }
 #healthValueHolder {
  display:inline-block;
