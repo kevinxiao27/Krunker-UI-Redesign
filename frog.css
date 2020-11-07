@@ -1332,7 +1332,7 @@ input:checked+.optCheck {
  width: 400px;
  display: inline-flex;
  justify-content: center;
- background-color: rgba(0, 0, 0, 0.2);
+ background-color: rgba(0, 0, 0, 0);
  height:50px;
 }
 .healthBarSeg {
