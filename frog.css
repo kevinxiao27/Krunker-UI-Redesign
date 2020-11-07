@@ -1,4 +1,4 @@
-/* Updated 6 November 2020 */
+/* Updated 7 November 2020 */
 
 :root {
 	--accent-color: #000000;
@@ -1321,6 +1321,7 @@ input:checked+.optCheck {
  padding-left:9px;
  transform: translateY(58px);
 }
+
 #healthValue {
  color:#eee;
  font-size:32px;
@@ -1328,21 +1329,19 @@ input:checked+.optCheck {
  display:inline-block;
 }
 #healthBar {
- display:inline-block;
- z-index:3;
+ width: 400px;
+ display: inline-flex;
+ justify-content: center;
+ background-color: rgba(0, 0, 0, 0.2);
  height:50px;
- border-radius: 0px;
- background-color:rgba(0,0,0,0)
 }
 .healthBarSeg {
- width: 70px;
- display:inline-block;
- border-radius: 0px;
- margin-right:-20px;
- height:100%;
+	width: -webkit-fill-available;
+    margin-right: -1px;
+    border-radius: 0;
+    background-color: transparent;
 }
 .hpBSeg {
- height:100%;
  border-radius: 0px;
 }	
 
