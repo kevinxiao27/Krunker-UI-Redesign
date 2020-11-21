@@ -1323,7 +1323,7 @@ input:checked+.optCheck {
 }
 
 #healthValue {
- color: rgba(255, 255, 255, 0)
+ color: rgba(255, 255, 255, 0);
  font-size:32px;
  will-change:transform;
  display:inline-block;
@@ -1458,7 +1458,7 @@ input:checked+.optCheck {
 #livesDisp,
 #streakVal,
 #myScoreVal {
-	bottom: 2%;
+	top: 2.5%;
 	position: fixed;
     text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
 }
@@ -1480,7 +1480,8 @@ input:checked+.optCheck {
 }
 
 .topRightCounters {
-	bottom: 2% !important;
-	right: 45% !important;
+	top: 1% !important;
+	left: 15% !important;
+	padding: 3px;
 	position: fixed;
 }
