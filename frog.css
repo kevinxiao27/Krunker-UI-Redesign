@@ -35,7 +35,6 @@
 	--main-button-hover-color: rgb(255, 255, 255);
 	--secondary-button: rgb(54, 54, 54);
 	--secondary-button-hover: rgb(0, 0, 0);
-	--class-weapon-color: rgba(255, 255, 255, 0.7);
 	--class-hp-unit-color: rgb(134, 132, 132);
 	--class-progress-bar-color: rgb(33, 150, 243);
 }
@@ -66,6 +65,16 @@
 
 #mapInfo + div {
 	display: var(--block-element) !important;
+}
+
+#termsInfo::before {
+    position: absolute;
+    content: 'css by blackbars4x3';
+    font-size: 30px;
+	transform: translateY(-150px);
+    margin-right: 0;
+    padding-right: 0;
+    color: var(--accent4);
 }
 
 .button {
@@ -350,9 +359,10 @@ input:checked+.optCheck {
 }
 
 #timerDisplay {
-	border-style: double;
-	background-color: rgba(0, 0, 0, 0.7);
-	padding-right: 25px;
+	border-style: solid;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-color: white;
+	padding-right: 20px;
 	border-radius: 0px;
 }
 
@@ -374,15 +384,15 @@ a:active {
 	transition: width 2s height 2s;
 	border-left-style: solid;
 	border-width: 2px;
-	border-color: black;
+	border-color: white;
 	border-radius: 0px;
 	left: 0% !important;
 }
 
 #chatInput {
-	border-color: black;
-	border-style: double;
-	background-color: rgba(0, 0, 0, 0.7) !important;
+	border-color: white;
+	border-style: solid;
+	background-color: rgba(0, 0, 0, 0.01) !important;
 	color: var(--accent2) !important;
 	border-radius: 0px;
 	border-width: medium;
@@ -414,15 +424,17 @@ a:active {
 	color: rgba(255, 255, 255, 0.6) !important;
 }
 
-.countIcon, #ammoDisplay, #teamScores, #voteToKick {
-	background-color: var(--hud-background-color) !important;
-	border-radius: var(--hud-roundness);
+.countIcon, #teamScores, #voteToKick {
+	background-color: rgba(0,0,0,0) !important;
+	border-style: solid;
+	border-color: white;
+	border-radius: 0px;
 }
 
 #leaderDisplay {
 	background-color: rgba(0,0,0,0) !important;
 	border-style: double;
-	border-color: black;
+	border-color: rgb(255,255,255);
 	border-radius: 0px;
 }
 
@@ -436,6 +448,10 @@ a:active {
 
 #pingIcon {
 	display: none;
+}
+
+#pingText::after{
+	content: " ms";
 }
 
 #voiceDisplay {
@@ -502,11 +518,11 @@ a:active {
 }
 
 .terms {
-	color: var(--terms-color) !important;
+	color: white:
 }
 
 .standout {
-	color: var(--accent) !important;
+	display: none;
 }
 
 .tScoreC {
@@ -526,7 +542,7 @@ a:active {
 }
 
 .classWeap {
-	color: var(--class-weapon-color) !important;
+	color: var(--accent4) !important;
 }
 
 .classHP {
