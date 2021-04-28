@@ -55,6 +55,10 @@
 	display: none !important;
 }
 
+.verticalSeparatorInline {
+	display: none;
+}
+
 #claimHolder {
 	display: var(--block-element) !important;
 }
@@ -65,6 +69,14 @@
 
 #mapInfo + div {
 	display: var(--block-element) !important;
+}
+
+#termsInfo {
+	background-color: rgba(0,0,0,0);
+	border-radius: 0px;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
 }
 
 #termsInfo::before {
@@ -227,7 +239,7 @@
 }
 
 .sliderM {
-	background-color: var(--slider-background) !important;
+	background-color: var(--accent) !important;
 }
 
 .sliderM::-webkit-slider-thumb {
@@ -247,7 +259,7 @@ input:checked+.optCheck {
 }
 
 .xpBar {
-	background-color: rgba(0,0,0,0) !important;
+	background-color: rgba(0,0,0,0.1) !important;
 }
 
 .xpBarB {
@@ -518,7 +530,7 @@ a:active {
 }
 
 .terms {
-	color: white:
+	color: white;
 }
 
 .standout {
@@ -660,7 +672,7 @@ span[style*='color: rgba(0, 0, 0, 0.8)'], .menuTabNew {
 }
 
 .settingsBtn {
-	color: var(--accent2);
+	color: var(--accent);
 	background-color: var(--input);
 }
 
@@ -851,7 +863,7 @@ a {
 /* health bar + hud image*/
 
 #healthValueHolder {
-    transform: translateY(-13px) translateX(40px) rotate(-11deg);
+    transform: translateY(-13px) translateX(40px) rotate(-8deg);
 	background-color: rgba(0, 0, 0, 0);
 	border-radius: 0px;
 	display:inline-block;
